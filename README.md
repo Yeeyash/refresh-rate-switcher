@@ -2,6 +2,8 @@
 
 A lightweight Windows system tray utility to quickly switch between your monitor's supported refresh rates without digging through Windows Display Settings.
 
+<img width="264" height="239" alt="image" src="https://github.com/user-attachments/assets/b2c7790a-d643-42c3-bb3b-64138f8b15aa" />
+
 ## Features
 * **Tray-based UI**: Access all refresh rates with a simple right-click.
 * **Smart Filtering**: Automatically detects and lists only the rates supported by your current resolution.
