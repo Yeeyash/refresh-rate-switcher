@@ -1,1 +1,24 @@
-# refresh-rate-switcher
+# RefreshRateSwitcher 🖥️
+
+A lightweight Windows system tray utility to quickly switch between your monitor's supported refresh rates without digging through Windows Display Settings.
+
+## Features
+* **Tray-based UI**: Access all refresh rates with a simple right-click.
+* **Smart Filtering**: Automatically detects and lists only the rates supported by your current resolution.
+* **Lightweight**: Written in C# using native Windows APIs (User32.dll).
+
+## How to Use
+1. Go to the [Releases](https://github.com/Yeeyash/refresh-rate-switcher/releases/tag/v1.0.0) section.
+2. Download the latest `refreshRateSwitcher.zip`.
+3. Extract the folder and run `refreshRateSwitcher.exe`.
+4. Right-click the monitor icon in your system tray to change your Hz.
+
+## Technical Details
+The project is built on **.NET 8.0-Windows**. It utilizes `EnumDisplaySettings` and `ChangeDisplaySettingsEx` to interact with the Windows display driver.
+
+## 🛠️ Current Development Note (Contributors Needed!)
+We are currently working on transitioning to a **True Single-File Executable**. 
+* **Current state**: The app only detects the display currently in use and does not work for multiple displays/monitors.
+* **Goal**: app should detect all displays, provide available refresh rates for the current resolution.
+
+If you are a .NET dev and want to help, please check [Issue #1](https://github.com/Yeeyash/refresh-rate-switcher/issues/1#issue-3905179501).
