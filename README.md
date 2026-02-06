@@ -1,6 +1,6 @@
 # RefreshRateSwitcher 🖥️
 
-A lightweight Windows system tray utility to quickly switch between your monitor's supported refresh rates without digging through Windows Display Settings.
+A lightweight Windows system tray utility to quickly switch between your monitor's supported refresh rates without digging through Windows Display Settings, all via a single-file execution.
 
 <img width="264" height="239" alt="image" src="https://github.com/user-attachments/assets/b2c7790a-d643-42c3-bb3b-64138f8b15aa" />
 
@@ -19,7 +19,7 @@ A lightweight Windows system tray utility to quickly switch between your monitor
 The project is built on **.NET 8.0-Windows**. It utilizes `EnumDisplaySettings` and `ChangeDisplaySettingsEx` to interact with the Windows display driver.
 
 ## 🛠️ Current Development Note (Contributors Needed!)
-We are currently working on transitioning to a **True Single-File Executable**. 
+We are currently working on expanding the active display constraints.
 * **Current state**: The app only detects the display currently in use and does not work for multiple displays/monitors.
 * **Goal**: app should detect all displays, provide available refresh rates for the current resolution.
 
