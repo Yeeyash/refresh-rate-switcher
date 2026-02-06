@@ -23,4 +23,8 @@ We are currently working on expanding the active display constraints.
 * **Current state**: The app only detects the display currently in use and does not work for multiple displays/monitors.
 * **Goal**: app should detect all displays, provide available refresh rates for the current resolution.
 
+## System Utilization
+- Idle RAM usage (when app is not triggered): ~6mb
+- When triggered: ~9mb
+
 If you are a .NET dev and want to help, please check [Issue #1](https://github.com/Yeeyash/refresh-rate-switcher/issues/1#issue-3905179501).
